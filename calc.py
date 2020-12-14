@@ -67,6 +67,3 @@ def evaluate_expression(exp):
 def calculate(exp):
     formated_string = exp.split()
     return evaluate_expression(formated_string)
-
-sample = "3 / ( 2 + 1234 ) * ( 1 + ( 23 / 24 ) + ( 13 * 191 ) ) + 165"
-print(calculate(sample))
